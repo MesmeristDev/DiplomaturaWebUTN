@@ -1,0 +1,21 @@
+h1, form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input, textarea{
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+}
+.Buttons-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+div  button{
+    padding: 8px 16px;
+    margin: 0 8px;
+
+}
