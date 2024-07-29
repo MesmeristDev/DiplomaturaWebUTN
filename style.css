@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 16px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: grey;
+}
