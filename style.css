@@ -4,6 +4,7 @@
 }
 body{
     background-color: grey;
+    min-height: 100vh;
 }
 header{
     background-color: #333;
@@ -12,12 +13,6 @@ header{
 }
 .Logo{
     height: 70px;
-}
-.img-banner{
-    width: 100%;
-}
-.nav container{
-    display: ;
 }
 ul{
     list-style: none;
@@ -28,11 +23,26 @@ ul li a{
     color: white;
     text-decoration: none;
     padding: 8px 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 ul li a:hover{
     background-color:lightslategray;
+    border-radius: 5px;
+}
+.Banner-container{
+    background-image: url(./Img/mujer-trabajando-oficina-casa-vector-mesa-computadora-computadora-escritorio-grupo-colegas-equipo-negocios_507816-649.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+div h2{
+    font-family: Bebas Neue;
+    text-align: center;
+    color: black;
+    display: flex;
+    background-color: aliceblue;
+    border-color: #333;
     border-radius: 5px;
 }
 footer{
@@ -40,4 +50,7 @@ footer{
     color: orange;
     text-align: center;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }

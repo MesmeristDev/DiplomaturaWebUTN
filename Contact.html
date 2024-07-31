@@ -6,37 +6,53 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./Css/Contact.css">
+    <script src="https://kit.fontawesome.com/b29d31f04f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-            <div class="nav-container">
-                <div>
-                    <img class="Logo"src="./Img/Logo_Normal1.png" alt="VRIO">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Acerca de</a></li>
-                        <li><a href="#">Galeria</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>   
-                </div>
+        <div class="nav-container">
+            <div>
+                <a href="./index.html"><img class="Logo"src="./Img/Logo_Normal1.png" alt="Logo"></a>
+                <ul>
+                    <li><a href="index.html">Inicio <i class="fa-solid fa-house" style="color: #FFD43B;"></i></i></a></li>
+                    <li><a href="Cards.html">Acerca de <i class="fa-solid fa-comments" style="color: #FFD43B;"></i></a></li>
+                    <li><a href="Gallery.html">Galeria <i class="fa-solid fa-image" style="color: #FFD43B;"></i></a></li>
+                    <li><a href="Contact.html">Contacto <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i></a></li>
+                </ul>   
             </div>
+        </div>
     </header>
     <main>
     <h1>Contacto</h1>
-    <form for="Nombre">Nombre:</form><input type="text" name="Nombre">
+    <h4> Estaremos encantados de poder estar en contacto contigo.</h4>
+    <form> 
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre">
+        
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido">
 
-    <form for="Apellido">Apellido:</form><input type="text" name="Apellido">
+        <label for="Telefono">Nro. de Teléfono:</label>
+        <input type="tel" name="Telefono">
 
-    <form for="Telefono">Nro. de Teléfono:</form><input type="tel" name="Telefono">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email">
 
-    <form for="email">Correo electrónico:</form><input type="email" name="email">
+        <label for="Message">Mensaje:</label>
+        <textarea name="Message"></textarea>
 
-    <form for="Message">Mensaje:</form><textarea name="Message"></textarea>
-
-    <div class="Buttons-container">
-        <button type="submit">Enviar</button>
-        <button class="Button delete" type="reset">Borrar</button>
-    </div>
+        <div class="button-container">
+            <button type="submit">Enviar</button>
+            <button class="button-delete" type="reset">Borrar</button>
+        </div>
+    </form>
     </main>
+    <footer>
+        <div class="Footer-container">
+            <p>
+                Copyright © 2024 Capital Humano. Primera Escuela ARG en HR
+            </p>
+        </div>   
+    </footer>
 </body>
 </html>
